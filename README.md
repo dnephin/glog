@@ -1,6 +1,9 @@
 glog
 ====
 
+A fork of https://github.com/golang/glog which removes initialization
+of global flags, and adds support for confuring level and streams.
+
 Leveled execution logs for Go.
 
 This is an efficient pure Go implementation of leveled logs in the
